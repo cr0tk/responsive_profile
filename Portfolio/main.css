@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Bhai 2', cursive;
+    box-sizing: border-box;
+
+}
+.container{
+    display: none;
+}
+.topnav a{
+    float: left;
+}
+.first{
+    height: 50em
+}
+.first-line img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    padding-top: 2em;
+}
+.first-line h4{
+    padding-top: .5em;
+    text-align: center;
+    font-size: 5em;
+    color: white;
+}
+.vision{
+    margin-top: 1em;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+.first{
+    background: #1ABC9C;
+}
+.cta{
+    text-align: center;
+    font-size: 3.5em;
+    text-transform: uppercase;
+}
+.card-1{
+    border: 2px solid grey;
+    width: 90%;
+    display: block;
+    box-shadow: 0 1px;
+    border-radius: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-1 h2{
+    text-align: center;
+}
+.card-1 p{
+    padding: .1em;
+    text-align: center;
+}
+.card-1 button{
+    margin-left: auto;
+    display: block;
+    background-color: white;
+    border: 0;
+    padding: 1em;
+    margin-right: auto;
+    cursor: pointer;
+}
+#card-2{
+    margin-top: 1em;
+}
+.about{
+    
+    background: #1ABC9C;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about h2{
+    margin-top: 1.5em;
+    padding-top: 1.5em;
+    font-size: 4em;
+    color: white;
+    letter-spacing: .2em;
+    text-align: center;
+}
+.about p{
+    padding-top: 2em;
+    color: white;
+    text-align: center;
+    font-size: 2em;
+}
+.contact{
+    font-size: 2em;
+    text-align: center;
+}
+.contact img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 2em;
+}
+.contact a{
+    font-size: .7em;
+}
+.social-web section{
+    background-color: #2C3E50;
+}
+.social-web h1{
+    padding-top: 5em;
+    text-align: center;
+    color: white;
+}
+.social-web img{
+    width: 2em;
+    padding-top: 2em;
+    padding-bottom: 10em;
+}
+.media{
+    text-align: center;
+    word-spacing: 4em;
+}
+.mail{
+    text-decoration: none;
+}
+
+    
+@media (max-width: 736px){
+    .footer{
+   
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+        
+}
+        .btn-on p{
+
+        text-transform: capitalize;
+    }
+    .btn-on button{
+        display: block;
+        margin: auto;
+        width: 50%;
+        margin-top: 5em;
+        background-color: #1ABC9C;
+        color: white;
+
+        
+    }
+    .btn-on button:hover{
+        background-color: white;
+        color: black;
+    }
+        .main{
+        display: none;
+    }
+
+}
+@media (max-width: 768px){
+            .main{
+        display: none;
+    }
+        .btn-on p{
+
+        text-transform: capitalize;
+    }
+    .btn-on button{
+        display: block;
+        margin: auto;
+        width: 40%;
+        margin-top: 5em;
+        background-color: #1ABC9C;
+        color: white;
+
+        
+    }
+    .btn-on button:hover{
+        background-color: white;
+        color: black;
+    }
+    
+}
+
+
+@media (min-width: 1024px){
+    .first-line img{
+        width: 20%;
+    }
+    .first-line h4{
+        font-size: 4em;
+    }
+    .card-1{
+        display:none;
+    }
+    .footer{
+        background-color: black;
+    }
+    .footer h6{
+        color: white;
+        text-align: center;
+    }
+
+    .cta{
+        display: none;
+    }
+    
+.card{
+     width: 20%;
+     display: inline-block;
+     box-shadow: 2px 2px 20px black;
+     border-radius: 5px; 
+     margin: 2%;
+    }
+
+.image img{
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  
+
+ 
+ }
+
+.title{
+ 
+  text-align: center;
+  padding: 10px;
+  
+ }
+
+h1{
+  font-size: 20px;
+ }
+
+.des{
+  padding: 3px;
+  text-align: center;
+ 
+  padding-top: 10px;
+        border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+button{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding:10px;
+    
+}
+button:hover{
+  background-color: black;
+  color: white;
+  transition: .5s;
+  cursor: pointer;
+}
+    .btn-on p{
+
+        text-transform: capitalize;
+    }
+    .btn-on button{
+        display: block;
+        margin: auto;
+        width: 10%;
+        margin-top: 5em;
+        background-color: #1ABC9C;
+        color: white;
+
+        
+    }
+    .btn-on button:hover{
+        background-color: white;
+        color: black;
+    }
+    
+    
+}
